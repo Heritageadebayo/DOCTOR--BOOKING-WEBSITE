@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { AppContext } from ".../context/AppContext";
+import { AppContext } from "../context/Context";
 const MyAppointments = () => {
   const { doctors } = useContext(AppContext);
   return (
@@ -8,7 +8,7 @@ const MyAppointments = () => {
 
       <div></div>
     </div>
-  );  
+  );
 };
 
 export default MyAppointments;
